@@ -1,0 +1,85 @@
+body {
+    background-position: fixed;
+    background-size: cover;
+}
+
+.heading {
+    font-size: 23px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px greenyellow;
+    font-family: 'Lora', serif;
+    font-weight: bold;
+}
+
+
+.note {
+    font-size: 14px;
+    color: black;
+    font-family: 'Lora', serif;
+    font-weight: bolder;
+}
+
+#font_size {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: gray;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    line-height: 3;
+    width: 100%;
+    text-align: center;
+}
+
+video {
+    border-color: rgb(49, 176, 213);
+    border-width: 3px;
+    border-style: solid;
+    box-shadow: -3px 3px 20px rgb(49, 176, 213);
+    size: 10px;
+}
+
+canvas {
+    border-style: ridge;
+    border-color: white;
+    border-width: 3px;
+    animation-name: canva;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background-color: whitesmoke;
+}
+
+@keyframes canva {
+    0% {
+        box-shadow: 20px 20px 40px rgb(246, 63, 63);
+    }
+
+    25% {
+        box-shadow: 20px 20px 40px rgb(249, 179, 51);
+    }
+
+    50% {
+        box-shadow: 20px 20px 40px greenyellow;
+    }
+
+    75% {
+        box-shadow: 20px 20px 40px rgb(49, 176, 213);
+    }
+
+    100% {
+        box-shadow: 20px 20px 40px white;
+    }
+}
+
+.user {
+    font-size: 13px;
+    width: 200px;
+    color:black;
+    height: 25px;
+}
